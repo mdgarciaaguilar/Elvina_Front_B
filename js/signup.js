@@ -14,8 +14,8 @@ $('#signup_button').on('click', function(){
   json_to_send = JSON.stringify(json_to_send);
 
   $.ajax({
-    //url: 'https://elvina-pasteleria-back.herokuapp.com/products',
-    url: 'http://localhost:3000/products',
+    url: 'https://elvina-pasteleria-back.herokuapp.com/products',
+    //url: 'http://localhost:3000/products',
 
     headers: {
         'Content-Type':'application/json'
